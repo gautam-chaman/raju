@@ -1,0 +1,190 @@
+1Please create 
+a prompt for creating a completely girls' hostel  single page websites
+ in HTML, which include  Home page, about us, services, contact  section 
+ in the website, home page has a carousel with 5 slides with image,
+  about us section has 500 words text about girls PG Hostel
+   and an image of PG Hostel, Services section has Breakfast, Lunch,
+    Dinner in service, 24*7 cctv Survilance service, Fully AC Rooms
+    ,LAdy Bouncer for girls Security, Free WI-Fi , 24*7 Guard,contact
+     us page has 2 part 1 part has a reistration ph ,
+   and another part has live map, after that add a footer in the website
+
+
+
+
+2nd prompt
+
+### Prompt for AI Website Generation
+
+**Create a modern, responsive, attractive Single Page Girls Hostel / Girls PG Website using HTML5, CSS3, Bootstrap 5, and JavaScript. The website should be fully responsive and suitable for students and working women. Use a feminine, elegant color scheme (pink, purple, white, and soft pastel colors). Include high-quality images and modern UI/UX design.**
+
+### Website Structure
+
+#### 1. Header / Navigation Bar
+
+* Sticky responsive navigation bar.
+* Hostel logo on the left side.
+* Navigation links:
+
+  * Home
+  * About Us
+  * Services
+  * Contact Us
+* Mobile-friendly hamburger menu.
+* Smooth scrolling navigation.
+
+---
+
+#### 2. Home Section
+
+* Full-width Bootstrap Carousel.
+* Include **5 slides** with high-quality Girls Hostel / PG images.
+* Each slide should contain:
+
+  * Background image.
+  * Attractive heading.
+  * Short description.
+  * "Book Now" button.
+* Add carousel indicators and navigation controls.
+* Auto-slide every 4 seconds.
+
+Example slide titles:
+
+* Safe & Secure Girls Hostel
+* Premium AC Accommodation
+* Home Away From Home
+* Delicious & Healthy Food
+* Comfortable Living for Students & Professionals
+
+---
+
+#### 3. About Us Section
+
+* Two-column layout.
+* Left side:
+
+  * Large high-quality Girls PG Hostel image.
+* Right side:
+
+  * Approximately **500 words** describing the Girls PG Hostel.
+  * Explain:
+
+    * Safety and security.
+    * Comfortable accommodation.
+    * Hygienic environment.
+    * Professional management.
+    * Convenient location.
+    * Facilities for students and working women.
+    * Friendly atmosphere.
+    * Affordable pricing.
+* Include a "Learn More" button.
+
+---
+
+#### 4. Services Section
+
+Create attractive service cards with PNG icons/images and hover effects.
+
+Include the following services:
+
+1. Fully AC Rooms
+2. Free High-Speed Wi-Fi
+3. 24×7 CCTV Surveillance
+4. Lady Bouncer for Girls Security
+5. Breakfast
+6. Lunch
+7. Dinner
+8. 24×7 Security Guard
+9. Clean & Hygienic Rooms
+10. Power Backup / 24×7 Electricity
+11. RO Drinking Water
+12. Housekeeping Services
+
+Each card should contain:
+
+* PNG icon/image.
+* Service title.
+* Short description.
+
+Display services in responsive grid layout.
+
+---
+
+#### 5. Contact Us Section
+
+Create a two-column layout.
+
+##### Left Side – Registration Form
+
+Fields:
+
+* Full Name
+* Mobile Number
+* Email Address
+* Hostel Type
+* Room Preference
+* Message
+* Submit Button
+
+Add form validation.
+
+##### Right Side – Live Google Map
+
+* Embed a live Google Map.
+* Responsive map display.
+* Show hostel location.
+
+---
+
+#### 6. Footer Section
+
+Create a professional footer with:
+
+##### Hostel Information
+
+* Hostel logo.
+* Short hostel description.
+
+##### Quick Links
+
+* Home
+* About Us
+* Services
+* Contact
+
+##### Contact Information
+
+* Address
+* Phone Number
+* Email Address
+
+##### Social Media Icons
+
+* Facebook
+* Instagram
+* WhatsApp
+* Twitter/X
+
+##### Bottom Footer
+
+* Copyright Notice
+* "Designed for Girls Hostel Management"
+
+---
+
+### Additional Requirements
+
+* Use Bootstrap 5.
+* Use Bootstrap Icons or Font Awesome icons.
+* Fully responsive design.
+* Smooth scrolling effect.
+* Attractive animations and hover effects.
+* Professional typography.
+* Modern card design.
+* Clean and optimized code.
+* Use placeholder images from Unsplash or Pexels for all hostel images.
+* Add proper comments in HTML code.
+* Generate complete code in a single `index.html` file including internal CSS and JavaScript.
+* Ensure the website looks professional, modern, secure, and suitable for a Girls PG Hostel business.
+
+

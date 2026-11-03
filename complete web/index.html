@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comfort PG & Hostel</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body{
+    scroll-behavior:smooth;
+}
+
+.navbar{
+    background:#0d6efd;
+    
+}
+
+.navbar-brand,
+.nav-link{
+    color:white !important;
+}
+
+.carousel-item img{
+    height:600px;
+    object-fit:cover;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-weight:bold;
+}
+
+.service-card{
+    transition:0.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-5px);
+}
+
+.service-card img{
+    height:80px;
+    width:80px;
+    margin:auto;
+    display:block;
+}
+
+footer{
+    background:#222;
+    color:white;
+    padding:30px 0;
+}
+
+footer a{
+    color:#ddd;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:white;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg sticky-top">
+<div class="container">
+<a class="navbar-brand" href="#"></a>
+
+<button class="navbar-toggler bg-light" type="button"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- Home Section -->
+<section id="home">
+
+<div id="hostelCarousel" class="carousel slide" data-bs-ride="carousel">
+
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#hostelCarousel" data-bs-slide-to="0" class="active"></button>
+<button type="button" data-bs-target="#hostelCarousel" data-bs-slide-to="1"></button>
+<button type="button" data-bs-target="#hostelCarousel" data-bs-slide-to="2"></button>
+<button type="button" data-bs-target="#hostelCarousel" data-bs-slide-to="3"></button>
+<button type="button" data-bs-target="#hostelCarousel" data-bs-slide-to="4"></button>
+</div>
+
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+<img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2" class="d-block w-100">
+<div class="carousel-caption">
+<h2>Welcome to Comfort PG</h2>
+<p>Safe, Secure and Comfortable Stay</p>
+</div>
+</div>
+
+<div class="carousel-item">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85" class="d-block w-100">
+<div class="carousel-caption">
+<h2>Luxury AC Rooms</h2>
+</div>
+</div>
+
+<div class="carousel-item">
+<img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267" class="d-block w-100">
+<div class="carousel-caption">
+<h2>High-Speed WiFi</h2>
+</div>
+</div>
+
+<div class="carousel-item">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85" class="d-block w-100">
+<div class="carousel-caption">
+<h2>Delicious Food</h2>
+</div>
+</div>
+
+<div class="carousel-item">
+<img src="https://images.unsplash.com/photo-1494526585095-c41746248156" class="d-block w-100">
+<div class="carousel-caption">
+<h2>24x7 Security</h2>
+</div>
+</div>
+
+</div>
+
+<button class="carousel-control-prev" type="button"
+data-bs-target="#hostelCarousel"
+data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</button>
+
+<button class="carousel-control-next" type="button"
+data-bs-target="#hostelCarousel"
+data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</button>
+
+</div>
+
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+<div class="container">
+
+<h2 class="section-title">About Our PG</h2>
+
+<p class="text-center fs-5">
+Comfort PG & Hostel provides a safe, secure and homely environment
+for students and working professionals. We offer modern facilities,
+fully furnished AC rooms, high-speed internet, healthy meals and
+24×7 security. Our mission is to provide a comfortable and affordable
+living experience with all essential amenities under one roof.
+</p>
+
+</div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-5 bg-light">
+
+<div class="container">
+
+<h2 class="section-title">Our Services</h2>
+
+<div class="row g-4">
+
+<div class="col-md-3">
+<div class="card service-card text-center p-3">
+<img src="https://cdn-icons-png.flaticon.com/512/1046/1046857.png">
+<h5 class="mt-3">Fully AC Rooms</h5>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card service-card text-center p-3">
+<img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png">
+<h5 class="mt-3">CCTV Camera</h5>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card service-card text-center p-3">
+<img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png">
+<h5 class="mt-3">High Speed Wi-Fi</h5>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card service-card text-center p-3">
+<img src="https://cdn-icons-png.flaticon.com/512/2910/2910791.png">
+<h5 class="mt-3">Lady Bouncer</h5>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card service-card text-center p-3">
+<img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png">
+<h5 class="mt-3">Breakfast</h5>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card service-card text-center p-3">
+<img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png">
+<h5 class="mt-3">Lunch</h5>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card service-card text-center p-3">
+<img src="https://cdn-icons-png.flaticon.com/512/5787/5787016.png">
+<h5 class="mt-3">Dinner</h5>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card service-card text-center p-3">
+<img src="https://cdn-icons-png.flaticon.com/512/3014/3014736.png">
+<h5 class="mt-3">24×7 Electricity</h5>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card service-card text-center p-3">
+<img src="https://cdn-icons-png.flaticon.com/512/891/891419.png">
+<h5 class="mt-3">24×7 Guard</h5>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card service-card text-center p-3">
+<img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png">
+<h5 class="mt-3">Delicious Food</h5>
+</div>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+
+<div class="container">
+
+<h2 class="section-title">Contact Us</h2>
+
+<div class="row">
+
+<div class="col-md-6">
+<form>
+
+<div class="mb-3">
+<input type="text" class="form-control" placeholder="Your Name">
+</div>
+
+<div class="mb-3">
+<input type="email" class="form-control" placeholder="Your Email">
+</div>
+
+<div class="mb-3">
+<input type="tel" class="form-control" placeholder="Mobile Number">
+</div>
+
+<div class="mb-3">
+<textarea class="form-control" rows="5" placeholder="Message"></textarea>
+</div>
+
+<button class="btn btn-primary">Send Message</button>
+
+</form>
+</div>
+
+<div class="col-md-6">
+
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.89796982668!2d77.0435517233351!3d28.52755440957202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3c0bffffff%3A0x8f0f5f0b3c8f3f6e!2sNoida!5e0!3m2!1sen!2sin!4v1700000000000"
+width="100%"
+height="350"
+style="border:0;"
+allowfullscreen=""
+loading="lazy">
+</iframe>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- Footer -->
+<footer>
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-4">
+    <img src="logo.png" width="100%" height="auto">
+<h4>Comfort PG</h4>
+<p>
+Safe, Secure & Affordable Hostel and PG
+for Students and Working Professionals.
+</p>
+</div>
+
+<div class="col-md-4">
+<h4>Quick Links</h4>
+<ul class="list-unstyled">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+
+<div class="col-md-4">
+<h4>Contact Info</h4>
+<p>📍 Your PG Address</p>
+<p>📞 +91 9876543210</p>
+<p>✉ info@comfortpg.com</p>
+</div>
+
+</div>
+
+<hr>
+
+<div class="text-center">
+<p>&copy; 2026 Comfort PG & Hostel. All Rights Reserved.</p>
+</div>
+
+</div>
+
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
